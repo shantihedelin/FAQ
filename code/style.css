@@ -1,0 +1,43 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+}
+
+.even {
+  background-color: lightcoral;
+}
+
+.odd {
+  background-color: pink
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+#section1,
+#section3 {
+  background-color: pink;
+}
+
+#section2 {
+  background-color: lightcoral;
+}
+
+.title {
+  height: 100px;
+  font-size: 25px;
+}
+
+i {
+  font-size: 26px;
+  margin-right: 10px;
+}
